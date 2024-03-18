@@ -43,9 +43,11 @@ position = int(input("Digite a posição: "))
 
 print(f"Oi {chromosome} {position} oi vamos ver")
 
+print(chromosome == "chr17")
+
 is_in_position = (position >= 41196312) and (position <= 41277500)
 
-if chromosome == 'chr17' and is_in_position:
+if chromosome == "chr17" and is_in_position:
     print("Sim")
 else:
     print("Não")
