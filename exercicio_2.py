@@ -41,7 +41,7 @@ Sim
 chromosome = input("Digite o cromossomo: ")
 position = int(input("Digite a posição: "))
 
-print(f"Oi {chromosome} {position} oi ")
+print(f"Oi {chromosome} {position} oi vamos ver")
 
 is_in_position = (position >= 41196312) and (position <= 41277500)
 
