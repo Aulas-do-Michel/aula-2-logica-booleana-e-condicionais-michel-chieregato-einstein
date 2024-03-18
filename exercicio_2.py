@@ -41,6 +41,10 @@ Sim
 chromosome = input("Digite o cromossomo: ")
 position = int(input("Digite a posição: "))
 
+print(123)
+print(chromosome)
+print(position)
+
 print(f"Oi {chromosome} {position} oi vamos ver")
 
 print(chromosome == "chr17")
