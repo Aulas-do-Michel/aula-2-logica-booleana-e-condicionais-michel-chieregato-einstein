@@ -17,3 +17,12 @@ Digite um número:
 
 Dica: Lembre do comando de resto da divisão inteira!
 """
+
+number = int(input("Digite um número: "))
+
+is_even = (number % 2) == 0
+
+if is_even:
+    print("Par")
+else:
+    print("Ímpar")
