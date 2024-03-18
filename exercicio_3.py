@@ -55,3 +55,17 @@ Resposta:
 Não
 
 """
+
+chromosome = input("Digite o cromossomo: ")
+position = int(input("Digite a posição: "))
+reference_genome = input("Digite o genoma de referência: ")
+
+if reference_genome == "hg19":
+    is_in_position = (position >= 41196312) and (position <= 41277500)
+else:
+    is_in_position = (position >= 43044295) and (position <= 43125483)
+
+if chromosome == 'chr17' and is_in_position:
+    print("Sim")
+else:
+    print("Não")
