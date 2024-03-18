@@ -15,7 +15,7 @@ Digite um número:
 
 Ímpar
 
-Dica: Lembre do comando de resto da divisão inteira!
+Dica: Lembre do comando de resto da divisão inteira!!
 """
 
 number = int(input("Digite um número: "))
