@@ -33,7 +33,7 @@
     {
       "name": "Exercício 3 - Teste 1",
       "setup": "",
-      "run": "echo -e \"chr17\\n43044295\\nhg38\" | python ./exercicio_3.py",
+      "run": "echo \"chr17\\n43044295\\nhg38\" | python ./exercicio_3.py",
       "input": "",
       "output": "Sim",
       "comparison": "included",
@@ -63,7 +63,7 @@
     {
       "name": "Exercício 4 - Teste 2",
       "setup": "",
-      "run": "echo \"Japão\\1\" | python ./exercicio_4.py",
+      "run": "echo \"Japão\\n1\" | python ./exercicio_4.py",
       "input": "",
       "output": "\\b30(?:\\.\\d+)?\\s*JPY\\b",
       "comparison": "regex",
@@ -83,8 +83,8 @@
     {
       "name": "Exercício 5 - Teste 2",
       "setup": "",
-      "run": "python ./exercicio_5.py",
-      "input": "0\r\nBRCA2\r\nBAIXO\r\n100\r\n50",
+      "run": "echo \"0\\nBRCA2\\nBAIXO\\n100\\n50\" | python ./exercicio_5.py",
+      "input": "",
       "output": "Não",
       "comparison": "included",
       "timeout": 10,
