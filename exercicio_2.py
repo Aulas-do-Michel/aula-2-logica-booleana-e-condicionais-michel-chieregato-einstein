@@ -39,12 +39,11 @@ Sim
 """
 
 chromosome = input("Digite o cromossomo: ")
-position = int(input("Digite a posição:"))
+position = int(input("Digite a posição: "))
 
-is_in_position = (chromosome >= 41196312) and (chromosome <= 41277500)
+is_in_position = (position >= 41196312) and (position <= 41277500)
 
 if chromosome == 'chr17' and is_in_position:
     print("Sim")
 else:
     print("Não")
-
