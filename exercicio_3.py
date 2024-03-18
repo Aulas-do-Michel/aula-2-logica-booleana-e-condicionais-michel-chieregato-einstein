@@ -61,6 +61,7 @@ reference_genome = input("Digite o genoma de referência: ")
 
 print(f"Oi {chromosome}la {position} {reference_genome}la")
 
+
 if reference_genome == "hg19":
     is_in_position = (position >= 41196312) and (position <= 41277500)
 else:
