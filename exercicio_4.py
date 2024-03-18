@@ -54,7 +54,6 @@ Não temos essa moeda em caixa.
 """
 pais = input("Qual país você vai viajar? ")
 
-print(f"Porque que o {pais} vem estranhooooooooooooo")
 if pais == "Estados Unidos":
     valor = float(input("Quantos reais você quer converter? "))
     valor_convertido = valor / 5
