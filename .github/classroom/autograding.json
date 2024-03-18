@@ -94,7 +94,7 @@
       "name": "Exercício 2 - Teste 2",
       "setup": "",
       "run": "python exercicio_2.py",
-      "input": "chr17\r\n41200000",
+      "input": "chr17\\n41200000",
       "output": "Sim",
       "comparison": "included",
       "timeout": 10,
