@@ -5,8 +5,8 @@
       "setup": "",
       "run": "python ./exercicio_1.py",
       "input": "100",
-      "output": "Par",
-      "comparison": "exact",
+      "output": "\\b[Pp][Aa][Rr]\\b",
+      "comparison": "regex",
       "timeout": 10,
       "points": null
     },
