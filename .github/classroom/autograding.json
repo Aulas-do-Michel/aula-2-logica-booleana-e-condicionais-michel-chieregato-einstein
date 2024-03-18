@@ -33,8 +33,8 @@
     {
       "name": "Exercício 3 - Teste 1",
       "setup": "",
-      "run": "python ./exercicio_3.py",
-      "input": "chr1\r\n1\r\nhg38",
+      "run": "echo -e \"chr17\\n43044295\\nhg38\" | python ./exercicio_3.py",
+      "input": "",
       "output": "Sim",
       "comparison": "included",
       "timeout": 10,
@@ -53,8 +53,8 @@
     {
       "name": "Exercício 4 - Teste 1",
       "setup": "",
-      "run": "python exercicio_4.py",
-      "input": "Estados Unidos\r\n100",
+      "run": "echo \"Estados Unidos\\n100\" | python exercicio_4.py",
+      "input": "",
       "output": "\\b20(?:\\.\\d+)?\\s*USD\\b",
       "comparison": "regex",
       "timeout": 10,
@@ -63,8 +63,8 @@
     {
       "name": "Exercício 4 - Teste 2",
       "setup": "",
-      "run": "python ./exercicio_4.py",
-      "input": "Japão\r\n1",
+      "run": "echo \"Japão\\1\" | python ./exercicio_4.py",
+      "input": "",
       "output": "\\b30(?:\\.\\d+)?\\s*JPY\\b",
       "comparison": "regex",
       "timeout": 10,
@@ -73,8 +73,8 @@
     {
       "name": "Exercício 5 - Teste 1",
       "setup": "",
-      "run": "python exercicio_5.py",
-      "input": "6\r\nGJB2\r\nALTO\r\n20\r\n100",
+      "run": "echo \"6\\nGJB2\\nALTO\\n100\\n20\" | python exercicio_5.py",
+      "input": "",
       "output": "É relevante",
       "comparison": "included",
       "timeout": 10,
