@@ -55,7 +55,6 @@ Resposta:
 Não
 
 """
-
 chromosome = input("Digite o cromossomo: ")
 position = int(input("Digite a posição: "))
 reference_genome = input("Digite o genoma de referência: ")
