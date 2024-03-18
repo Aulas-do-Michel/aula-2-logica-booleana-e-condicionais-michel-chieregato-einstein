@@ -59,7 +59,7 @@ chromosome = input("Digite o cromossomo: ")
 position = int(input("Digite a posição: "))
 reference_genome = input("Digite o genoma de referência: ")
 
-print(f"Oi {chromosome}la {position} {reference_genome}la")
+print(f"Oi {chromosome}la {position} {reference_genome}")
 
 
 if reference_genome == "hg19":
