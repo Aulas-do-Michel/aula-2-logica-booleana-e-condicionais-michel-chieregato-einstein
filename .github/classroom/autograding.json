@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Exercício 1 - Teste 1",
+      "setup": "",
+      "run": "python ./exercicio_1.py",
+      "input": "100",
+      "output": "Par",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Exercício 1 - Teste 2",
+      "setup": "",
+      "run": "python ./exercicio_1.py",
+      "input": "111",
+      "output": "Ímpar",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Exercício 2 - Teste 1",
+      "setup": "",
+      "run": "python ./exercicio_2.py",
+      "input": "chr1\r\n1",
+      "output": "Não",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Exercício 2 - Teste 2",
+      "setup": "",
+      "run": "python ./exercicio_2.py",
+      "input": "chr17\r\n41277400",
+      "output": "Sim",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Exercício 3 - Teste 1",
+      "setup": "",
+      "run": "python ./exercicio_3.py",
+      "input": "chr17\r\n41196314\r\nhg19",
+      "output": "Sim",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Exercício 3 - Teste 2",
+      "setup": "",
+      "run": "python exercicio_3.py",
+      "input": "chr1\r\n1\r\nhg19",
+      "output": "Não",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Exercício 4 - Teste 1",
+      "setup": "",
+      "run": "python exercicio_4.py",
+      "input": "Estados Unidos\r\n100",
+      "output": "\\b20(?:\\.\\d+)?\\s*USD\\b",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Exercício 4 - Teste 2",
+      "setup": "",
+      "run": "python ./exercicio_4.py",
+      "input": "Japão\r\n1",
+      "output": "\\b30(?:\\.\\d+)?\\s*JPY\\b",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Exercício 5 - Teste 1",
+      "setup": "",
+      "run": "python exercicio_5.py",
+      "input": "6\r\nGJB2\r\nALTO\r\n20\r\n100",
+      "output": "É relevante",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Exercício 5 - Teste 2",
+      "setup": "",
+      "run": "python ./exercicio_5.py",
+      "input": "0\r\nBRCA2\r\nBAIXO\r\n100\r\n50",
+      "output": "Não",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
