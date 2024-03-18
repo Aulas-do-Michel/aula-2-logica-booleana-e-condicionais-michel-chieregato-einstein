@@ -70,4 +70,3 @@ elif pais == "Japão":
 else:
     print("Não temos essa moeda em caixa.")
 
-
