@@ -41,6 +41,8 @@ Sim
 chromosome = input("Digite o cromossomo: ")
 position = int(input("Digite a posição: "))
 
+print(f"Oi {chromosome} {position} oi ")
+
 is_in_position = (position >= 41196312) and (position <= 41277500)
 
 if chromosome == 'chr17' and is_in_position:
