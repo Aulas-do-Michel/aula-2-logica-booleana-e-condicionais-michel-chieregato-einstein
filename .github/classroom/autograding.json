@@ -93,7 +93,7 @@
     {
       "name": "Exercício 2 - Teste 2",
       "setup": "",
-      "run": "echo -e \"chr17\\n41196312\" | python exercicio_2.py",
+      "run": "echo \"chr17\\n41196312\" | python exercicio_2.py",
       "input": "",
       "output": "Sim",
       "comparison": "included",
